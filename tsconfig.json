@@ -1,0 +1,17 @@
+{
+    "extends": "@tsconfig/bun/tsconfig.json",
+    "compilerOptions": {
+        "allowJs": true,
+        "paths": {
+            "@errors/*": [
+                "./src/errors/*"
+            ],
+            "@services/*": [
+                "./src/services/*"
+            ],
+            "@models/*": [
+                "./src/models/*"
+            ]
+        }
+    }
+}
